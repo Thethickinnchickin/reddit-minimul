@@ -2,12 +2,10 @@ const express = require('express');
 const app = express();
 const path = __dirname + '/client/src/';;
 const cors = require("cors");
-var corsOptions = {
-    origin: 'http://localhost:8080'
-};
+
 
 //Adding cors to express
-app.use(cors(corsOptions));
+app.use(cors());
 
 //Setting view for react native
 

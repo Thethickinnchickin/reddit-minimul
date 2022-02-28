@@ -25,7 +25,7 @@ router.get('/hot/:subreddit', async (req, res) => {
 
 router.get('/top/:subreddit', async (req, res) => {
     try {
-        const redditCollections = await axios.get(`https://www.reddit.com/r/${req.params.subreddit}/top.json`)
+        const redditCollections = await axios.get(`https://www.reddit.com/search?q=${req.params.subreddit}`)
 
         res.json(redditCollections.data);
     } catch (err) {

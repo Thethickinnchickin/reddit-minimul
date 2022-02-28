@@ -1,0 +1,29 @@
+{
+  "name": "reddit-minimul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thethickinnchickin/reddit-minimul.git"
+  },
+  "author": "Matt Reiley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thethickinnchickin/reddit-minimul/issues"
+  },
+  "homepage": "https://github.com/Thethickinnchickin/reddit-minimul#readme",
+  "dependencies": {
+    "@vue/cli": "^5.0.1",
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-react-views": "^0.11.0",
+    "path": "^0.12.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
